@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ratings-data
+  labels:
+    app: ratings-data
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ratings-data
+  template:
+    metadata:
+      labels:
+        app: ratings-data
+    spec:
+      containers:
+      - name: ratings-data
+        image: 'gcr.io/favorable-iris-266409/ratings-data:v1'
+        ports:
+        - containerPort: 8080
