@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.ms</groupId>
 	<artifactId>ratings-data-service</artifactId>
-	<version>0.1</version>
+	<version>test</version>
 	<name>ratings-data-service</name>
 
 	<properties>
