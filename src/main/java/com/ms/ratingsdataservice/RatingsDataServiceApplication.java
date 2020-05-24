@@ -11,7 +11,6 @@ import org.springframework.web.client.RestTemplate;
 //@EnableEurekaClient
 public class RatingsDataServiceApplication {
 
-
 	@Bean
 //	@LoadBalanced
 	public RestTemplate getRestTemplate(){
