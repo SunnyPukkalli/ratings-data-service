@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: ratings-data
-        image: 'gcr.io/favorable-iris-266409/ratings-data:test'
+        image: 'gcr.io/favorable-iris-266409/ratings-data:v1'
         ports:
         - containerPort: 8080
