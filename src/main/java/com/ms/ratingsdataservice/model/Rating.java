@@ -2,19 +2,19 @@ package com.ms.ratingsdataservice.model;
 
 public class Rating {
 
-    private String movieId;
+    private int movieId;
     private int rating;
 
-    public Rating(String movieId, int rating) {
+    public Rating(int movieId, int rating) {
         this.movieId = movieId;
         this.rating = rating;
     }
 
-    public String getMovieId() {
+    public int getMovieId() {
         return movieId;
     }
 
-    public void setMovieId(String movieId) {
+    public void setMovieId(int movieId) {
         this.movieId = movieId;
     }
 
@@ -24,5 +24,13 @@ public class Rating {
 
     public void setRating(int rating) {
         this.rating = rating;
+    }
+
+    @Override
+    public String toString() {
+        return "Rating{" +
+                "movieId=" + movieId +
+                ", rating=" + rating +
+                '}';
     }
 }

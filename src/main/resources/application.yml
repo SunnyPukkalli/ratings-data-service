@@ -4,3 +4,14 @@ server:
 spring:
   application:
     name: ratings-data
+  zipkin:
+    base-url: http://zipkin-server/
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server/eureka/
+    healthcheck:
+      enabled: true
