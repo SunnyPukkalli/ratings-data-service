@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: ratings-data
-        image: 'gcr.io/favorable-iris-266409/ratings-data:v1'
+        image: 'gcr.io/favorable-iris-266409/ratings-data:e1'
         env:
         - name: PROFILE
           value: cloud
