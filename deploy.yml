@@ -17,5 +17,8 @@ spec:
       containers:
       - name: ratings-data
         image: 'gcr.io/favorable-iris-266409/ratings-data:v1'
+        env:
+        - name: PROFILE
+          value: cloud
         ports:
         - containerPort: 8080
