@@ -34,7 +34,7 @@ public class RatingsResource {
 
     @RequestMapping("/{movieId}")
     public Rating getRating(@PathVariable("movieId")  int movieId){
-        return new Rating(movieId,4);
+        return new Rating(movieId,random.nextInt());
     }
 
     @RequestMapping("/users/{userId}")
