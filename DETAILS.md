@@ -15,7 +15,7 @@
 |`eureka url`               |`http://eureka-server/eureka/` |
 
 
-###### API Exposed
+###### API Exposed for image version : e1
 |API                        |Description                    |
 |---------------------------|-------------------------------|
 |**`/ratings/{movieId}`**       |will return Rating with movieId and Random.nextInt() as rating |
