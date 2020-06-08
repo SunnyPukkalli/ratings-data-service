@@ -18,5 +18,5 @@
 ###### API Exposed
 |API                        |Description                    |
 |---------------------------|-------------------------------|
-|`/ratings/{movieId}`       |will return Rating with movieId and Random.nextInt() as rating |
-|`/ratings/users/{userId}`  |will return a randomly generated User Ratings List             |
+|`**/ratings/{movieId}**`       |will return Rating with movieId and Random.nextInt() as rating |
+|`**/ratings/users/{userId}**`  |will return a randomly generated User Ratings List             |
